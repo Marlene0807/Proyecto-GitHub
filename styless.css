@@ -1,14 +1,15 @@
 body{
-    background-color: black;
+    background-color: rgb(150, 233, 55);
     text-align: center;
-    color: beige;
+    color: rgb(170, 88, 224);
 }
 #contenido{
     max-width: 50%;
     align-content: center;
     border: 2px;
-    background-color: #2F4f4f;
+    background-color: rgb(150, 233, 55);
 }
 #contenido img{
-    max-width: 10 rem;
+    max-width: 20 rem;
+    align-items: center;
 }
