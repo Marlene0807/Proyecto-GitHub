@@ -1,15 +1,29 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
 body{
-    background-color: rgb(150, 233, 55);
+    background-color: rgb(63, 66, 241);
+    font-family: 'New Tegumi', serif;
+    display: flex;
+    justify-content: center;
     text-align: center;
-    color: rgb(170, 88, 224);
+    width: 100%;
+    height: 100%;
 }
 #contenido{
-    max-width: 50%;
-    align-content: center;
-    border: 2px;
-    background-color: rgb(150, 233, 55);
+    background-color: rgb(255, 3, 213);
+    width: 50%;
+    max-width: 50rem;
+    text-align: center;
+    margin: 7% 25% 5% 25%;
+    padding: 2rem 0.5rem;
+    border-radius: 5rem;    
 }
-#contenido img{
-    max-width: 20 rem;
-    align-items: center;
+#card img{
+    width: 50%;
+    border: 6px solid #334756;
+    border-radius: 99rem;
 }
